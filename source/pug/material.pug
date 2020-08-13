@@ -14,7 +14,7 @@ html(lang="es")
 
                     include includes/page-home_topbar.pug
 
-                    +pageHeader("Tema", "assets/images/header/header_media.svg", "")   
+                    +pageHeader("Tema", "", "")   
 
         section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
 
@@ -37,8 +37,8 @@ html(lang="es")
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
                                     +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Normativa vigente proceso ECCL', '#tema-1')
-                                    +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
+                                    +navTemaItem('1', 'Estructura de las Empresas Asociativas de Trabajo', '#tema-1')
+                                    +navTemaItem('2', 'Constituir una Empresa Asociativa de Trabajo', '#tema-2')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
@@ -49,8 +49,8 @@ html(lang="es")
                 include pages/introduccion.pug
             #tema-1
                 include pages/1-tema.pug
-            #evaluacion
-                include pages/actividad-1.pug
+            #tema-2
+                include pages/2-tema.pug
             #glosario
                 include pages/glosario.pug
             #anexos
