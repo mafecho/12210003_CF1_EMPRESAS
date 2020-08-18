@@ -1,10 +1,20 @@
-$cardTitle--color: #ECEFFE;
-$timelineColor: #3E145E;
+$cardTitle--color: #003E64;
+$timelineColor: #125F85;
 $box-shadow: 0px 3px 9px 0px rgba(62,20,94,0.46);
 
 .tl--borders {
   border-bottom: 1px solid $timelineColor;
   border-top: 1px solid $timelineColor;
+}
+
+.timeline__text{
+  margin-left: 13%;
+}
+
+.timeline__download{
+  p{
+   margin-left: 40% !important;
+  }
 }
 
 .timeline__wrapper {  
@@ -83,6 +93,7 @@ $box-shadow: 0px 3px 9px 0px rgba(62,20,94,0.46);
       }      
       h3 {
         margin: 0 0 0 1rem;
+        color: white;
       }
       .img-box {           
         img {          
